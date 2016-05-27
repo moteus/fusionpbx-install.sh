@@ -10,6 +10,7 @@ apt-get install -y --force-yes  fail2ban
 cp resources/fail2ban/fusionpbx.conf /etc/fail2ban/filter.d/fusionpbx.conf
 cp resources/fail2ban/freeswitch-dos.conf /etc/fail2ban/filter.d/freeswitch-dos.conf
 cp resources/fail2ban/freeswitch.conf /etc/fail2ban/filter.d/freeswitch.conf
+cp resources/fail2ban/freeswitch-ip.conf /etc/fail2ban/filter.d/freeswitch-ip.conf
 
 #move the template
 cp resources/fail2ban/jail.package /etc/fail2ban/jail.package
